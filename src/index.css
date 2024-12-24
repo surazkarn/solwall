@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Wallet Adapter Custom Styles */
+:root {
+  --wallet-adapter-button-background: theme('colors.indigo.600') !important;
+}
+
+.wallet-adapter-button:hover {
+  background-color: theme('colors.indigo.700') !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  background: theme('colors.gray.600') !important;
+}
+
+.wallet-adapter-modal-button-close {
+  background-color: theme('colors.indigo.600') !important;
+}
+
+.wallet-adapter-modal-button-close:hover {
+  background-color: theme('colors.indigo.700') !important;
+}
+
+/* Fix for wallet list text color */
+.wallet-adapter-modal-list li {
+  color: theme('colors.gray.900') !important;
+}
+
+.wallet-adapter-modal-list-more {
+  color: theme('colors.gray.900') !important;
+}
+
+/* Improve modal styling */
+.wallet-adapter-modal-title {
+  color: theme('colors.gray.900') !important;
+}
+
+.wallet-adapter-modal-list-button {
+  background-color: theme('colors.gray.50') !important;
+  border: 1px solid theme('colors.gray.200') !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.wallet-adapter-modal-list-button:hover {
+  background-color: theme('colors.gray.100') !important;
+  border-color: theme('colors.gray.300') !important;
+}
+
+.wallet-adapter-modal-list-button-icon {
+  filter: none !important;
+}
